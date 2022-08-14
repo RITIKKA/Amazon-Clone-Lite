@@ -1,0 +1,53 @@
+.top-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-div .first-div {
+    width: 600px;
+    margin-left: 60px;
+}
+
+.top-div .second-div {
+    width: 600px;
+    margin-right: 60px;
+}
+
+.second-div .oven-img {
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+.btn {
+    background-color: orange;
+}
+
+.first-div .btn {
+    top:"-60px";
+    margin-left: 80px;
+}
+
+.second-div .btn {
+    margin-top: 40px;
+    margin-left: 140px;
+}
+
+.middle-div {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bottom-div {
+    margin-left: 200px;
+    width: 100%;
+}
+
+.Led-img {
+    margin-left: 150px;
+}
+
+.bottom-div .btn {
+    margin-top: 50px;
+    margin-left: 440px;
+}

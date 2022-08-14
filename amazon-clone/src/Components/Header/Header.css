@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+}
+
+.header .header-logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.header .header-search {
+   position: relative;
+   top:50px;
+   padding: 14px 16px;
+   padding-right: 25px;
+}
+
+.header .header-nav {
+    display: flex;
+    flex-direction: row;
+
+}
+.header .header-nav-signin {
+    margin-left: 500px;
+    padding: 5px;
+}
+
+.header .header-nav-cart{
+   margin-left: 80px;
+   margin-top: 20px;
+}
