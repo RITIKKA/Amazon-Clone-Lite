@@ -4,7 +4,7 @@ import background_img from "../Home/e-commerce.jpg";
 const Home = () => {
     return (
         <div>
-            <img src={background_img} style={{height:"400px", width:"100%",}}/>
+            <img style={{ backgroundImage: `url(${background_img})`, height:"500px", width:"100%" }} />
         </div>
     )
 }
