@@ -1,22 +1,54 @@
+
 .top-div {
     display: flex;
     flex-direction: row;
+    background-color: rgb(194, 237, 255);
 }
 
 .top-div .first-div {
     width: 600px;
-    margin-left: 60px;
+    margin-left: 30px;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.top-div .first-div p {
+    margin-left: 30px;
+}
+
+.top-div .first-div img{
+    margin-left: 100px;
+}
+
+.top-div .first-div .btn {
+    margin-left: 150px;
 }
 
 .top-div .second-div {
     width: 600px;
-    margin-right: 60px;
+    margin-right: 30px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 70px;
 }
 
-.second-div .oven-img {
-    margin-top: 100px;
+.top-div .second-div p {
     margin-left: 30px;
 }
+
+.top-div .second-div img{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.top-div .second-div .btn {
+    margin-left: 150px;
+  
+}
+
 
 .btn {
     background-color: orange;
@@ -35,19 +67,84 @@
 .middle-div {
     display: flex;
     flex-direction: row;
+    background-color: rgb(194, 237, 255);
 }
 
+.middle-div .third-div {
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.middle-div .third-div p {
+    margin-left: 30px;
+}
+
+.middle-div .third-div img{
+    margin-left: 100px;
+}
+
+.middle-div .third-div .btn {
+    margin-left: 120px;
+}
+
+.middle-div .fourth-div {
+    background-color: white;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.middle-div .fourth-div p {
+    margin-left: 30px;
+}
+
+.middle-div .fourth-div img{
+    margin-left: 100px;
+}
+
+.middle-div .fourth-div .btn {
+    margin-left: 120px;
+}
+
+.middle-div .fifth-div {
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.middle-div .fifth-div p {
+    margin-left: 30px;
+}
+
+.middle-div .fifth-div img{
+    margin-left: 100px;
+}
+
+.middle-div .fifth-div .btn {
+    margin-left: 120px;
+}
 
 .bottom-div {
-    margin-left: 200px;
     width: 100%;
+    background-color: rgb(194, 237, 255);
 }
 
 .Led-img {
-    margin-left: 150px;
+    margin-left: 250px;
 }
 
 .bottom-div .btn {
     margin-top: 50px;
     margin-left: 440px;
+}
+
+.bottom-div .sixth-div {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bottom-div .sixth-div p {
+    padding-left: 70px;
 }
