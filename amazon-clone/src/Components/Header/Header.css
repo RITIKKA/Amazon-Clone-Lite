@@ -16,11 +16,22 @@
     padding: 20px;
 }
 
+.header .header-logo .bag {
+    margin-top: 30px;
+    color: orange;
+}
+
+.header .header-logo .eShop {
+    margin-left: 20px;
+    font-size: 50px;
+}
+
 .header .header-search {
    position: relative;
-   top:50px;
-   padding: 14px 16px;
-   padding-right: 25px;
+   top:70px;
+   margin-left: 40px;
+   font-size: 30px;
+
 }
 
 .header .header-nav {
@@ -33,7 +44,12 @@
     padding: 5px;
 }
 
+.header .header-nav-your-shop {
+    margin-left: 20px;
+}
+
 .header .header-nav-cart{
-   margin-left: 80px;
-   margin-top: 20px;
+   margin-left: 50px;
+   margin-right: 80px;
+   margin-top: 40px;
 }
