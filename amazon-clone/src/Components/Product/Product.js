@@ -9,7 +9,7 @@ import Led_img from "../Product/Led.jfif";
 
 const Product = () => {
     return (
-        <div>
+        <div class="product-div">
             <div className="top-div">
                 <div className="first-div">
                     <p>Bennett Mystic 15.6 inch Laptop Shoulder Messenger Sling Office Bag, Water Repellent Fabric for Men and Women (Blue)</p>
@@ -59,11 +59,14 @@ const Product = () => {
             </div>
 
             <div className="bottom-div">
-            <p>Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440</p>
+                <div className="sixth-div">
+                    <p>Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440</p>
                     <p>$1094.98</p>
                     <p>⭐⭐⭐⭐⭐</p>
                     <img class="Led-img" src={Led_img} style={{height:"300px", width:"50%"}}/>
                     <p><button type="button" className="btn">Add to Basket</button></p>
+                </div>
+                    
             </div>
         
         </div>
