@@ -1,5 +1,7 @@
 import React from "react";
-import { MdShoppingBag, MdOutlineShoppingCart } from "react-icons/md";
+import { MdOutlineShoppingCart } from "react-icons/md";
+import { AiOutlineShop } from "react-icons/ai";
+
 
 import './Header.css';
 
@@ -7,13 +9,12 @@ const Header = () => {
     return (
         <header className="header">
                 <div className="header-logo">
-                      <MdShoppingBag size="40px" />
+                      <AiOutlineShop class="bag" size="60px" />
                       <h1 class="eShop">eShop</h1>
                 </div>
 
                 <div className="header-search">
-                    <input type="text" name= "search" placeholder="Search" />
-
+                    <input type="search" name="search" placeholder="Search"  />
                 </div>
 
                 <div className="header-nav"> 
@@ -28,7 +29,7 @@ const Header = () => {
                      </div>
 
                     <div  className="header-nav-cart">
-                        <MdOutlineShoppingCart size="40px"/>
+                        <MdOutlineShoppingCart size="70px"/>
                     </div>
                 </div>
         </header>
